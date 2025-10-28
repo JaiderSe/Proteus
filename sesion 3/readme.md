@@ -1,54 +1,58 @@
-# Cómo Medir la Resistencia Total en Proteus
+# Cómo Medir Voltaje en Proteus
 
 ![Proteus Logo](banner.png)
 
-¡Hola! esta sesion 2 te guía paso a paso para medir la resistencia total (o equivalente) en un circuito usando Proteus Design Suite. Es ideal para estudiantes de primer semestre que están aprendiendo sobre circuitos eléctricos. La resistencia total es la suma de todas las resistencias en serie o el cálculo equivalente en paralelo.
+https://udistritaleduco-my.sharepoint.com/:v:/g/personal/jsmorenoq_udistrital_edu_co/EWhE8uFQLXJDmSjGr--3XHsBV8XaI7z9Qa5vA-RxdCluAw?e=R9ZycG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+¡Hola! esta sesion 3 te explica de manera sencilla cómo medir el voltaje en un circuito usando Proteus Design Suite. Es perfecto para estudiantes de primer semestre que están empezando con la simulación de circuitos eléctricos. El voltaje es la diferencia de potencial eléctrico entre dos puntos.
 
 ## Requisitos Previos
-- Proteus instalado.
-- Un proyecto abierto con un circuito simple (por ejemplo, resistencias en serie o paralelo).
+- Proteus instalado en tu computadora.
+- Un proyecto abierto con un circuito básico (por ejemplo, con una batería y resistencias).
 
-## Pasos para Medir la Resistencia Total
+## Pasos para Medir el Voltaje
 
 ### 1. Crea o Abre tu Circuito
 - Abre Proteus y carga un proyecto existente o crea uno nuevo.
-- Agrega resistencias al diseño (consulta el README de la sesión 1 si necesitas ayuda para agregar elementos).
-- Conecta las resistencias: en serie (una tras otra) o en paralelo (conectadas a los mismos puntos).
+- Agrega una fuente de voltaje (como una batería) y componentes como resistencias (consulta los README de sesiones anteriores si necesitas ayuda para agregar elementos).
+- Conecta los elementos para formar un circuito simple.
 
-### 2. Agrega un Multímetro (Voltímetro/Amperímetro)
-- En la **Library Browser**, busca "MULTIMETER" o "VOLTMETER".
-- Arrástralo al diseño.
-- Configúralo como "Ohmmeter" (medidor de resistencia): haz doble clic y selecciona la opción de resistencia (Ω).
+### 2. Agrega un Voltímetro
+- En la **Library Browser**, busca "VOLTMETER" o "MULTIMETER".
+- Arrástralo al área de diseño.
+- Configúralo como voltímetro: haz doble clic y selecciona la opción de voltaje (V).
 
-### 3. Conecta el Multímetro
-- Conecta las puntas del multímetro a los extremos del circuito donde quieres medir la resistencia total.
-- Para resistencia total, desconecta cualquier fuente de voltaje (como baterías) para medir solo la resistencia.
+### 3. Conecta el Voltímetro
+- Conecta las puntas del voltímetro a los dos puntos del circuito donde quieres medir la diferencia de voltaje.
+- Por ejemplo, entre la batería y una resistencia, o entre dos nodos del circuito.
+- Asegúrate de que esté en paralelo con la parte del circuito que quieres medir (no en serie, ya que eso cambiaría el circuito).
 
 ### 4. Simula el Circuito
-- Haz clic en el botón "Play" (▶️) en la barra de herramientas para iniciar la simulación.
-- El multímetro mostrará el valor de la resistencia total en ohmios (Ω).
+- Haz clic en el botón "Play" (▶️) para iniciar la simulación.
+- El voltímetro mostrará el valor del voltaje en voltios (V).
 
 ### 5. Interpreta los Resultados
-- Si las resistencias están en serie: R_total = R1 + R2 + ...
-- Si están en paralelo: 1/R_total = 1/R1 + 1/R2 + ...
-- Compara con tus cálculos manuales para verificar.
+- Compara el valor medido con tus cálculos teóricos (usando la ley de Ohm: V = I * R).
+- Si el circuito tiene divisiones, verifica el voltaje en cada parte.
 
-### 6. Guarda y Documenta
-- Guarda el proyecto.
-- Anota los valores en un cuaderno o en el README.
+### 6. Guarda tu Trabajo
+- Ve a **File > Save** para guardar el proyecto.
+- Documenta los valores en tu cuaderno o en este README.
 
 ## Consejos para Principiantes
-- **Circuito simple primero**: Usa dos resistencias de 1kΩ en serie para practicar.
-- **Modo correcto**: Asegúrate de que el multímetro esté en modo resistencia (no voltaje o corriente).
-- **Errores comunes**: Si el circuito tiene una fuente de voltaje conectada, el multímetro no medirá correctamente la resistencia.
-- **Ayuda integrada**: Usa **Help > Tutorials** en Proteus para más ejemplos.
-- Practica con diferentes configuraciones: serie, paralelo y combinadas.
+- **Circuito básico**: Empieza con una batería de 5V y una resistencia de 1kΩ para medir el voltaje a través de la resistencia.
+- **Modo correcto**: El voltímetro debe estar en modo DC (corriente continua) si usas baterías.
+- **Errores comunes**: No conectes el voltímetro en serie; debe estar en paralelo. Si el valor es cero, revisa las conexiones.
+- **Ayuda en Proteus**: Usa **Help > Tutorials** para ver ejemplos visuales.
+- Practica cambiando valores de componentes y observa cómo cambia el voltaje.
 
 ## Ejemplo Rápido
-- Agrega dos resistencias de 1kΩ en serie.
-- Conecta el multímetro a los extremos.
-- Simula: deberías ver 2kΩ en el multímetro.
+- Agrega una batería de 10V y una resistencia de 2kΩ en serie.
+- Conecta el voltímetro en paralelo con la resistencia.
+- Simula: deberías ver aproximadamente 10V en el voltímetro (si no hay otras caídas).
 
-¡Experimenta y aprende! Si tienes preguntas, revisa los tutoriales o pregunta en clase.
+¡Experimenta y diviértete aprendiendo! Si tienes dudas, revisa tutoriales en línea o pregunta a tu profesor.
 
 ---
+
+Este README es para estudiantes de primer semestre. Si necesitas más detalles, edítalo aquí.
