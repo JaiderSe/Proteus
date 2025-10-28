@@ -1,4 +1,10 @@
 # Proteus: Software de Simulación de Circuitos Electrónicos
+
+![Proteus Logo](banner.png)
+
+## Guía Rápida para Principiantes
+
+
 Si es la primera vez que usas Proteus, este video te guiará paso a paso desde la instalación hasta la simulación de tus primeros circuitos.
 
 https://udistritaleduco-my.sharepoint.com/:v:/g/personal/jsmorenoq_udistrital_edu_co/Ecaobo-iG6tOhQGyA212h-ABCSubQOZv6hDkM0NCaE82ig?e=32YwWU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
