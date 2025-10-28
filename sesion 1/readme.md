@@ -4,6 +4,9 @@
 
 ¡Bienvenido! esta sesion 1 te explica paso a paso cómo agregar elementos (como resistencias, capacitores, transistores, etc.) a un proyecto en Proteus Design Suite. Proteus es un software de simulación de circuitos electrónicos que se usa mucho en ingeniería. Si eres estudiante de primer semestre, no te preocupes: seguiremos pasos simples y claros.
 
+https://udistritaleduco-my.sharepoint.com/:v:/g/personal/jsmorenoq_udistrital_edu_co/ETYHXHIzpGtOksb8twJrI9YBlFP1Y_BWUx5Ya7Rwt3K8uQ?e=ApFmQP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+
 ## Requisitos Previos
 - Tener Proteus instalado en tu computadora.
 - Un proyecto abierto en Proteus (por ejemplo, un archivo `.pdsprj`).
